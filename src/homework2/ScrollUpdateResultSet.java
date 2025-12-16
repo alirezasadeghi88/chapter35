@@ -12,7 +12,7 @@ public class ScrollUpdateResultSet {
 
         // اتصال به دیتابیس
         Connection connection = DriverManager.getConnection(
-                "jdbc:postgresql://localhost:5432/javabook",
+                "jdbc:postgresql://localhost:5432/javabook2",
                 "postgres", "postgres");
         connection.setAutoCommit(true);
         System.out.println("Database connected");
